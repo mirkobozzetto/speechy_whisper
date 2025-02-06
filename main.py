@@ -1,3 +1,6 @@
+import sys
+print("sys.path =", sys.path)
+
 import uvicorn
 from src.api import app
 
